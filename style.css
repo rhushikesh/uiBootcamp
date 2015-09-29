@@ -1,0 +1,19 @@
+
+header {
+	background-color: lightblue;
+	padding: 30px;
+}
+
+.tagline {
+	font-size: 25px;
+	color: white;
+	margin-left: 15px;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+nav{
+	background-color: lightgrey;
+}
