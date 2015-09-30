@@ -17,3 +17,64 @@ header {
 nav{
 	background-color: lightgrey;
 }
+
+.h3-tag{
+	color: #086A87;
+	font-size: 40px;
+}
+
+.subtitle-tag{
+	 font: bold 20px/40px  Helvetica;
+}
+
+
+.h4-tag{
+	font-family: "Times New Roman", Times, serif;
+	font:12px;
+	font-weight: bold;
+	color: #504E4E;
+}
+
+.h5-tag{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #504E4E;
+}
+
+.sidebar{
+	background-color: #E6E6E6;
+	padding: 10px 10px 10px 10px;
+}
+
+
+.sidebar-element{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#0B615E;
+	font-size: 20px;
+}
+
+
+
+.li-element{
+	color: #504E4E;
+}
+
+.btn{
+	color: #2A1B0A;
+	background-color: #D0FA58;
+	padding: 10px 20px 10px 20px;
+}
+
+.ftr{
+	background-color: #2E2E2E;
+	color: white;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+	padding: 10px 20px 10px 20px;
+}
+
+.sidebar{
+	
+}
+
+
