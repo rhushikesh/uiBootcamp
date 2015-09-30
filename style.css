@@ -8,6 +8,8 @@ header {
 	font-size: 25px;
 	color: white;
 	margin-left: 15px;
+	position: absolute;
+	top: 50px;
 }
 
 .inline-block {
@@ -16,6 +18,22 @@ header {
 
 nav{
 	background-color: lightgrey;
+	position: relative;
+	padding: 10px;
+}
+
+nav ui {
+	/*display: inline-block;*/
+}
+
+nav li {
+	display: inline;
+	float: left;
+	padding-left: 200px; 	
+}
+
+.nav-item {
+	
 }
 
 .h3-tag{
@@ -41,7 +59,13 @@ nav{
 	color: #504E4E;
 }
 
-.sidebar{
+#mainContent{
+	width: 70%;
+}
+
+#sidebar{
+	float: left;
+	width: 30%;
 	background-color: #E6E6E6;
 	padding: 10px 10px 10px 10px;
 }
@@ -52,8 +76,6 @@ nav{
 	color:#0B615E;
 	font-size: 20px;
 }
-
-
 
 .li-element{
 	color: #504E4E;
@@ -73,8 +95,9 @@ nav{
 	padding: 10px 20px 10px 20px;
 }
 
-.sidebar{
-	
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-
-
+	
